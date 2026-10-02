@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">EXAMEN_PMDM</string>
+    <string name="app_name">Fraguas</string>
+    <string-array name="tipos_unidad">
+        <item>Guerrero</item>
+        <item>Arquero</item>
+        <item>Explorador</item>
+        <item>Berserker</item>
+    </string-array>
 </resources>
