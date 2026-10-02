@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         // Control del foco
         // Al abrir, colocar el cursor en el EditText
         etIdentificador.requestFocus()
-        //Si se cambia el foco y el EditText sigue vacío (preguntar profe)
+        //Si se cambia el foco y el EditText sigue vacío
         etIdentificador.setOnFocusChangeListener { _, hasFocus ->
             if (!hasFocus && etIdentificador.text.toString().isEmpty()) {
                 etIdentificador.error = "El ejército no acepta soldados anónimos"
